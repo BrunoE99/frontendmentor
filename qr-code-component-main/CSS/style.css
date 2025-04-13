@@ -1,5 +1,5 @@
 body {
-    background-color: hsl(212, 45%, 89%);
+    background-color: #d6e2f0;
     margin: 0;
     height: 100vh;
     display: flex;
@@ -27,7 +27,7 @@ div > p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: hsl(0, 0%, 100%);
+    background-color: #ffffff;
     border-radius: 25px;
 }
 
@@ -38,7 +38,13 @@ div > p {
 
 .flex-item1 {
     padding: 15px;
-    height: 480px;
-    width: 285px;
+    max-width: 285px;
+    max-height: 480px;
     text-align: center;
+}
+
+@media (max-width: 350px) {
+    .flex-container {
+        width: 90%;
+    }
 }
