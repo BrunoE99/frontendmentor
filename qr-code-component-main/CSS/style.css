@@ -1,0 +1,44 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div > h2 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding: 3px;
+}
+
+div > p {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+}
+
+.qr {
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+.flex-item1 {
+    padding: 15px;
+    height: 480px;
+    width: 285px;
+    text-align: center;
+}
